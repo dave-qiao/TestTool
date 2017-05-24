@@ -6,9 +6,9 @@ import chai from 'chai';
 let expect = chai.expect;
 
 describe('test.js的测试', function () {
-  it('1+1 = 2', function() {
+  it('1 应该是 undefined', function() {
       // expect(isNum(1)).to.be.ok
       // isNum(1).should.equal(true)
-      expect(testTool.isNum(1,1)).to.be.equal(2);
+      expect(testTool.isUndefined(undefined)).to.be.ok;
   })
 })
