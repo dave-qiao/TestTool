@@ -5,7 +5,8 @@
   "description": "",
   "main": "./src/test.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register ",
+    "html": "mocha --reporter mochawesome --compilers js:babel-core/register "
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-webpack": "^1.8.1",
     "mocha": "^3.0.2",
+    "mochawesome": "^2.2.0",
     "webpack": "^1.13.2"
   },
   "dependencies": {
